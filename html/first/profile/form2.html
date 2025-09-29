@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <title>Interview Application Form</title>
+</head>
+<body>
+  <h1>Interview Application Form</h1>
+  <form method="post">
+    <p>Enter your Name:</p>
+    <input type="text" name="name" placeholder="name">
+    <p>Enter your email:</p>
+    <input type="text" name="email" placeholder="email" >
+    
+    <P>Position Applied For</P>
+    <select id="position" name="position">
+      <option value="developer">Developer</option>
+      <option value="designer">Designer</option>
+      <option value="manager">Manager</option>
+    </select>
+    
+    <p>education</p>
+    <input type="text" id="education" name="education">
+    
+    <p>experience</p>
+   <input type="number" id="experience" name="experience" placeholder="years" min="0">
+    
+    <p>Upload Resume:</p>
+    <input type="file" id="resume" name="resume">
+    
+    <p>message</p>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    
+    <button type="submit">Submit Application</button>
+  </form>
+</body>
+</html>

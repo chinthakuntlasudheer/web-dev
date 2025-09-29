@@ -1,0 +1,16 @@
+article {
+  border: 1px solid #2a06f3;
+  padding: 16px;
+  margin: 12px 0;
+}
+h2 {
+  margin: 0 0 8px;
+}
+small {
+  display: block;
+  color: #8d0303;
+  margin-bottom: 8px;
+}
+p {
+  line-height: 1.7;
+}

@@ -1,0 +1,14 @@
+article {
+  width: 260px;
+  padding: 16px;
+  border: 4px solid rgb(75, 7, 235);
+  margin: 16px;
+  display: inline-block;
+  vertical-align: top;
+}
+article.dashed {
+  border-style: dashed;
+}
+article.double {
+  border-style: double;
+}
