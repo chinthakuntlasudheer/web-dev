@@ -1,0 +1,46 @@
+body {
+  background: #6c33be;
+  margin: 10;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1px;
+}
+
+.box {
+  height: 40px;
+  margin: 6px;
+  border-radius: 7px;
+  flex: 1 1 10px;
+  min-width: 100px;
+  max-width: 210px;
+}
+
+.blue {
+  background: #69f7f7;
+}
+
+.yellow {
+  background: #ffe46b;
+}
+
+.pink {
+  background: #ff69b7;
+}
+
+.title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-top: 40px;
+  letter-spacing: 20px;
+}
