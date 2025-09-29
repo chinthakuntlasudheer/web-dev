@@ -1,0 +1,35 @@
+/* Headings (h1 to h6) styled globally */
+h1, h2, h3, h4, h5, h6 {
+  color: #2d5a87;
+  font-family: 'Segoe UI', Verdana, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+}
+
+/* All paragraph tags */
+p {
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.2em;
+}
+
+/* All anchor (link) tags */
+a {
+  color: #eb5437;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* All images styled globally */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.5em;
+}
