@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.layout {
+    background-color: darkviolet;
+    padding: 40px;
+}
+
+
+
+.layout .row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.row .item {
+    padding: 20px;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pink {
+    background-color: pink;
+}
+
+
+.row-1 .item-1 , .row-1 .item-2 , .row-1 .item-3 {
+    flex: 1;
+}
+
+.row-2 .item-1 , .row-3 .item-2 {
+    flex: 1;
+}
+
+.row-2 .item-2 , .row-3 .item-1 {
+    flex: 2;
+}
+
+.row-4 .ri-1 , .row-4 .ri-2 , .row-4 .ri-3 {
+    flex: 1;
+}
+
+.row-4 .ri-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row-4 .ri-2 .sub-item-1 {
+    flex: 2;
+}
